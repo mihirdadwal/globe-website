@@ -1,0 +1,358 @@
+.flex {
+    display: flex;
+
+}
+/* class for creating flex in row direction */
+
+.float-left {
+    float: left;
+}
+/* content shifts to left inside the container */
+
+.float-right {
+    float: right;
+}
+/* content shifts to right inside the container */
+
+.alignitems-center {
+    align-items: center;
+}
+/* sets items in the center container */
+
+.align-content{
+    align-content: center;
+}
+.shadow{
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2)
+}
+/* sahdow under nav bar */
+
+.price-margin-top{
+    margin-top: auto;
+    padding-bottom: 3px;
+}
+
+section {
+    padding: 20px 70px;
+}
+/* tag selector. Sets the given padding to all sections in the page */
+
+body{
+    background-color: #eceff3;
+    margin: 0;
+    padding: 0;
+}
+/* tag selector. Sets the color, padding and margin of all content in the body tag */
+
+a{
+    text-decoration: none;
+}
+/*  */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 55px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    /* width: 100vw; */
+    /* height: 100vh; */
+    /* margin-left: -50px; */
+    /* padding: 100px 0; */
+}
+/* class for nav bar */
+
+.nav-a {
+    margin: 0 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.nav-a:hover{
+    border-bottom: 5px solid #8cd4bc;
+}
+/* nav bar margin */
+
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+.nav-png{
+    padding-right: 10px;
+}
+
+.nav-logo {
+    /* position: relative; */
+    /* top: 20%; */
+    /* left: 20%; */
+    /* padding: 0 20%; */
+    margin: 0 auto;
+}
+/* setting logo in nav bar to center */
+
+.profile-photo{
+    border-radius: 50%;
+}
+
+.stars {
+    line-height: 0px;
+    margin-top: -5px;
+    margin-bottom: -20px;
+}
+
+.five-stars {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.img-padding {
+    padding: 3px;
+    margin-top: -40px;
+}
+
+#review-padding {
+    padding-top: 10px;
+}
+/* id selector.  */
+
+.location>img {
+    border: 1.5px solid green;
+    border-radius: 5px;
+}
+/* selecting all img tag inside location class */
+
+.hollow-icons {
+    border: 2px solid #8dd3bb;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+
+.general-buttons {
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    background-color: #8dd3bb;
+}
+/* css for all buttons */
+
+.section-icons {
+    display: flex;
+    float: right;
+}
+
+.red-text {
+    color: red;
+}
+
+.rating-stars {
+    font-size: larger;
+    font-weight: bolder;
+    padding: 25px 0px;
+}
+
+.ratings-price {
+    /* display: flex; */
+    float: right;
+    color: red;
+    font-weight: bold;
+    align-items: end;
+}
+/*  */
+
+.price-padding {
+    padding-left: 53%;
+}
+
+.price-text {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+/* images css in sewction 1 */
+.image-container {
+    display: flex;
+    align-items: center;
+}
+
+/* descendant combinator */
+.image-container>img {
+    border-radius: 10px 0px 0px 10px;
+    padding: 0 5px;
+}
+
+.left-image {
+    max-width: 50%;
+    
+    height: auto;
+    border-radius: 5xp;
+}
+
+.right-images {
+    /* flex: 1; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.img{
+    height: 100%;
+}
+
+.right-images img {
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 5px 5px;
+}
+.image-button{
+    position: relative;
+    top: -60px;
+    left: 1020px;
+    /* margin-top: -50px; */
+    /* float: right; */
+}
+
+
+.review {
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.review-rating {
+    width: 120px;
+    border-radius: 9px;
+    background-color: #8dd3bb;
+}
+
+.review-num {
+    font-weight: bold;
+    padding: 2px 10px;
+    font-size: 24px;
+}
+
+.review-num~div {
+    padding: 2px 10px;
+}
+
+.nearby {
+    border: solid 2px #8dd3bb;
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+.available-rooms{
+
+}
+.available-rooms #av-div2{
+    margin-left: auto;
+}
+.available-rooms #av-div2-1{
+    margin-left: auto;
+}
+#av-price{
+    padding: 0 10px;
+}
+
+#av-detail{
+    padding: 0 10px;
+}
+
+.map{
+    padding-bottom: 20px;
+}
+
+.map-button{
+    margin-left: auto;
+}
+
+iframe{
+    width: 100%;
+}
+
+
+.amenities{
+    font-weight: bold;
+    padding: 0px 20px 10px 0px;
+    margin: 0px 319px 20px 0px;
+    display: flex;
+    align-items: center;
+}
+.amenities img{
+    margin-right: 18px;
+}
+.amenities a{
+    color:#cc193d; 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.section6-review-num{
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 18px;
+}
+
+.review-padding{
+    padding: 0 10px;
+}
+
+.review-img{
+    border-radius: 50%;
+}
+.review-bottom{
+    justify-content: center;
+    padding: 10px 0;
+    padding-bottom: 50px;
+}
+
+/* footer css */
+
+/* position relateve for moving the subscribe div on the footer */
+.subscribe{
+    background-color: #cdeae1;
+    margin: 0 80px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    z-index: 2;
+    position: relative;
+    margin-bottom: -10%;
+}
+
+.subscribe-button{
+    background-color: black;
+    color: white;   
+}
+
+.form{
+    height: 35px;
+    width: 280px;
+}
+
+.footer{
+    background-color: #8dd3bb;
+    padding: 60px 0;
+    padding-top: 200px;
+    z-index: 1;
+}
+
+footer > div {
+    margin: 10px auto;
+}
+
+footer > div > div {
+    margin: 20px auto;
+}
+
+footer > div > div > a {
+    margin: 0 20px;
+}
+
+.footer-image{
+    margin-left: auto;
+    height: 240px;
+    width: auto;
+}
